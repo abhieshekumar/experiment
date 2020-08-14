@@ -1,0 +1,18 @@
+<div class="col s12">
+  <h5>
+    Rewrite the following text in the space provided below.
+  </h5>
+</div>
+<div class="col s12 divider"></div>
+<div class="col s12">
+  <p class="textflow">
+    Apple Cat Dog Fish Horse
+  </p>
+</div>
+<div class="col s12 divider"></div>
+<div class="input-field col s12">
+  <textarea id="keyboardTest" class="materialize-textarea" style="height:200px"></textarea>
+</div>
+<div class="col s12">
+  <a class="waves-effect waves-light btn-large" id="dataButton" onclick="complete()">Submit</a>
+</div>

@@ -1,0 +1,13 @@
+<div class="col s12">
+  <h5>
+    <p class="textflow">
+      Select the date : <b>4/3/2019</b>
+  </h5>
+</div>
+<div class="col s12 divider"></div>
+<div class="input-field col s12">
+  <input type="text" id="mater-date" class="datepicker">
+</div>
+<div class="col s12">
+  <a class="waves-effect waves-light btn-large" id="dataButton" onclick="complete()">Submit</a>
+</div>

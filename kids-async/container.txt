@@ -1,0 +1,25 @@
+<div class="col s12">
+  <ul class="collection">
+    <li class="collection-item avatar">
+      <i class="material-icons circle red">keyboard</i>
+      <span class="title"><b><a onclick="route('keyboard.txt', './asset/keyboard.js')">Keyboard Input</a></b></span>
+      <p>Standard QWERTY input <br>
+          Simple ABCD input
+      </p>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle blue">linear_scale</i>
+      <span class="title"><b><a onclick="route('slider.txt', './asset/slider.js')">Slider Input</a></b></span>
+      <p>Standard slider <br>
+          Slider with button on each end
+      </p>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle green">date_range</i>
+      <span class="title"><b><a onclick="route('date.txt', './asset/date.js ')">Date Input</a></b></span>
+      <p>Standard calender input <br>
+          Simplified calender input
+      </p>
+    </li>
+  </ul>                  
+</div>

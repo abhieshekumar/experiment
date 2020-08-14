@@ -1,0 +1,58 @@
+<div class="col s12">
+  <h5>
+    <p class="textflow">
+      How to spell <b>1</b> ?
+    </p>
+  </h5>
+</div>
+<div class="col s12">
+  <a class="waves-effect waves-light btn-large purple" onclick="recordTap('btn1');changeClass(this, 'purple', 'red')">Two</a>
+  <a class="btn-large purple" onclick="recordTap('btn2');">One</a>
+  <a class="waves-effect waves-light btn-large purple" onclick="recordTap('btn3');changeClass(this, 'purple', 'green')">One</a>
+  <a class="waves-effect waves-light btn-large purple" onclick="recordTap('btn4');">Three</a>
+</div>
+<div class="divider"></div>
+<div class="col s12">
+  <h5>
+    <p class="textflow">
+      Tap the buttons twice.
+    </p>
+  </h5>
+</div>
+<div class="col s12">
+  <a class="waves-effect waves-light btn-large purple" ondblclick="recordDoubleTaps_dblclick('btn1');changeClass(this, 'purple', 'green')">Have</a>
+  <a class="waves-effect waves-light btn-large purple" ondblclick="recordDoubleTaps_dblclick('btn2');changeClass(this, 'purple', 'green')">a</a>
+  <a class="waves-effect waves-light btn-large purple" ondblclick="recordDoubleTaps_dblclick('btn3');changeClass(this, 'purple', 'green')">Good</a>
+  <a class="waves-effect waves-light btn-large purple" ondblclick="recordDoubleTaps_dblclick('btn4');changeClass(this, 'purple', 'green')">Day</a>
+</div>
+<div class="divider"></div>
+<div class="col s12">
+  <h5>
+    <p class="textflow">
+      Select all black buttons.
+    </p>
+  </h5>
+</div>
+<div class="col s12">
+  <table style="width:min-content; border-collapse: collapse;">
+    <tr>
+      <td><div class="tap-targets orange" style="height: 48px; width: 48px;" onclick="tapSize('btn1')"></div></td>
+      <td><div class="tap-targets black" style="height: 48px; width: 48px;" onclick="tapSize('btn2');changeClass(this, 'black', 'white');"></div></td>
+      <td><div class="tap-targets yellow" style="height: 48px; width: 48px;" onclick="tapSize('btn3')"></div></td>
+      <td><div class="tap-targets black" style="height: 48px; width: 48px;" onclick="tapSize('btn4');changeClass(this, 'black', 'white');"></div></td>
+      <td><div class="tap-targets green" style="height: 48px; width: 48px;" onclick="tapSize('btn5')"></div></td>
+      <td><div class="tap-targets indigo" style="height: 48px; width: 48px;" onclick="tapSize('btn6')"></div></td>
+    </tr>
+    <tr>
+      <td><div class="tap-targets black" style="height: 48px; width: 48px;" onclick="tapSize('btn7');changeClass(this, 'black', 'white');"></div></td>
+      <td><div class="tap-targets purple" style="height: 48px; width: 48px;" onclick="tapSize('btn8')"></div></td>
+      <td><div class="tap-targets red" style="height: 48px; width: 48px;" onclick="tapSize('btn9')"></div></td>
+      <td><div class="tap-targets black" style="height: 48px; width: 48px;" onclick="tapSize('btn10');changeClass(this, 'black', 'white');"></div></td>
+      <td><div class="tap-targets pink" style="height: 48px; width: 48px;" onclick="tapSize('btn11')"></div></td>
+      <td><div class="tap-targets black" style="height: 48px; width: 48px;" onclick="tapSize('btn12');changeClass(this, 'black', 'white');"></div></td>
+    </tr>
+  </table>
+</div>
+<div class="col s12">
+  <a class="waves-effect waves-light btn-large" id="dataButton" onclick="complete()">Submit</a>
+</div>

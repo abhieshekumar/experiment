@@ -1,0 +1,28 @@
+<div class="col s12">
+    <h5>
+      <p class="textflow">
+        Place slider to a value of <b>80</b>.
+      </p>
+    </h5>
+</div>
+<div class="col s12 divider"></div>
+<div class="col s12">
+  <div class="col s2">
+    <h2 onclick="sliderUpdate(-1)">-</h2>
+  </div>
+  <div class="input-field col s8" style="padding-top:25px">
+    <div class="range-wrap">
+      <div class="range-value" id="rangeV"></div>
+      <input id="range" type="range" min="0" max="100" value="0" step="1">
+    </div>
+  </div>
+  <div class="col s2">
+    <h2 onclick="sliderUpdate(1)">
+      +
+    </h2>
+  </div>
+</div>
+<div class="col s2"></div>
+<div class="col s12">
+  <a class="waves-effect waves-light btn-large" id="dataButton" onclick="complete()">Submit</a>
+</div>

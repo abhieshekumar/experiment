@@ -1,0 +1,12 @@
+<div class="col s12">
+  <h5>
+    <p class="textflow">
+      Trace over the shapes
+    </p>
+  </h5>
+</div>
+<div class="col s12" id="my-canvas">
+</div>
+<div class="col s12">
+  <a class="waves-effect waves-light btn-large" id="dataButton" onclick="complete()">Submit</a>
+</div>

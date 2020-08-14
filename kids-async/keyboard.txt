@@ -1,0 +1,57 @@
+<div class="col s12">
+    <h5>
+      Rewrite the following text in the space provided below.
+    </h5>
+</div>
+<div class="col s12 divider"></div>
+<div class="col s12">
+  <p class="textflow">
+    Apple Cat Dog Fish Horse
+  </p>
+</div>
+<div class="col s12 divider"></div>
+<div class="input-field col s12">
+  <div id="keyboardTest" class="materialize-textarea" style="height:200px; padding:10px; border: solid 1px rgba(0,0,0,0.2);"></div>
+</div>
+<div class="col s12">
+  <table id="keyboard" class="alphabets-capital alpabets">
+    <tr>
+      <td onclick="charClicked(this)">A</td>
+      <td onclick="charClicked(this)">B</td>
+      <td onclick="charClicked(this)">C</td>
+      <td onclick="charClicked(this)">D</td>
+      <td onclick="charClicked(this)">E</td>
+      <td onclick="charClicked(this)">F</td>
+      <td onclick="charClicked(this)">G</td>
+      <td onclick="charClicked(this)">H</td>
+      <td onclick="charClicked(this)">I</td>
+      <td onclick="charClicked(this)">J</td>
+    </tr>
+    <tr>
+      <td onclick="charClicked(this)">K</td>
+      <td onclick="charClicked(this)">L</td>
+      <td onclick="charClicked(this)">M</td>
+      <td onclick="charClicked(this)">N</td>
+      <td onclick="charClicked(this)">O</td>
+      <td onclick="charClicked(this)">P</td>
+      <td onclick="charClicked(this)">Q</td>
+      <td onclick="charClicked(this)">R</td>
+      <td onclick="charClicked(this)">S</td>
+      <td onclick="charClicked(this)">T</td>
+    </tr>
+    <tr>
+      <td onclick="charClicked(this)">U</td>
+      <td onclick="charClicked(this)">V</td>
+      <td onclick="charClicked(this)">W</td>
+      <td onclick="charClicked(this)">X</td>
+      <td onclick="charClicked(this)">Y</td>
+      <td onclick="charClicked(this)">Z</td>
+      <td onclick="deleteChar()">⇦</td>
+      <td onclick="toggleCase(this)">⇩</td>
+      <td onclick="space()" colspan="2">&#863;</td>
+    </tr>
+  </table>
+</div>
+<div class="col s12">
+  <a class="waves-effect waves-light btn-large" id="dataButton" onclick="complete()">Submit</a>
+</div>
